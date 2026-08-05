@@ -2,33 +2,43 @@
 
 namespace Practica1_Veterinaria.Modelos
 {
+    public enum EstadoPaciente
+    {
+        Sano,
+        Enfermo
+    }
+
+    public enum SexoMascota
+    {
+        Macho,
+        Hembra
+    }
+
     public abstract class Mascota
     {
-        private string nombre;
-        private double peso;
-        private string sexo;
-        private int edad;
-        private string propietario;
-        private string codigo;
-        private bool enfermo;
+        public string Nombre {get; set;}
+        public double Peso {get; set;}
+        public SexoMascota Sexo {get; set;}
+        public int Edad {get; set;}
+        public string Propietario {get; set;}
+        public string Codigo {get; private set;}
+        public EstadoPaciente Estado {get; private set;}
 
         // constructor
-        public Mascota(string nombre, double peso, string sexo, int edad, string propietario, bool enfermo)
+        public Mascota(string nombre, double peso, SexoMascota sexo, int edad, string propietario)
         {
-            this.nombre = nombre;
-            this.peso = peso;
-            this.sexo = sexo;
-            this.edad = edad;
-            this.propietario = propietario;
-            this.codigo = GenerarCodigo();
-            this.enfermo = enfermo;
+            Nombre = nombre;
+            Peso = peso;
+            Sexo = sexo;
+            Edad = edad;
+            Propietario = propietario;
+            Codigo = GenerarCodigo();
+            Estado = EstadoPaciente.Sano;
         }
 
-        public string Nombre {get {return nombre;} set {nombre = value;}}
-        public double Peso {get {return peso;} set {peso = value;} }
-        public int Edad {get {return edad;} set {edad = value;}}
-        public string Codigo {get {return codigo;}}
-        public bool Enfermo {get {return enfermo;}}
+        protected abstract double FactorAjusteDosis {get;}
+
+        public abstract string Especie {get; }
 
         private string GenerarCodigo()
         {
@@ -44,7 +54,22 @@ namespace Practica1_Veterinaria.Modelos
 
         public virtual double CalcularDosis(double dosis_por_kg)
         {
-            return peso * dosis_por_kg;
+            double dosisBase = Peso * dosis_por_kg;
+            return dosisBase * FactorAjusteDosis;
+        }
+
+
+        public void CambiarEstado(EstadoPaciente nuevoEstado)
+        {
+            Estado = nuevoEstado;
+        }
+
+        public virtual void MostrarInformacion()
+        {
+            Console.WriteLine("============================================");
+            Console.WriteLine($"[{Codigo}] {Nombre} | {Sexo} | {Edad} años");
+            Console.WriteLine($"Peso: {Peso} kg | Propietario: {Propietario}");
+            Console.WriteLine($"Estado: {Estado}");
         }
     }
 }
