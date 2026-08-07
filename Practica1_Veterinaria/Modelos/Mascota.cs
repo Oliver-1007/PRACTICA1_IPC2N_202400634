@@ -66,10 +66,10 @@ namespace Practica1_Veterinaria.Modelos
 
         public virtual void MostrarInformacion()
         {
-            Console.WriteLine("============================================");
-            Console.WriteLine($"[{Codigo}] {Nombre} | {Sexo} | {Edad} años");
+            Console.WriteLine("=====================================================");
+            Console.WriteLine($"[{Codigo}] {Especie} | Nombre: {Nombre} | Sexo: {Sexo}");
             Console.WriteLine($"Peso: {Peso} kg | Propietario: {Propietario}");
-            Console.WriteLine($"Estado: {Estado}");
+            Console.WriteLine($"Estado: {Estado} | {Edad} años");
         }
     }
 }

@@ -23,7 +23,7 @@ namespace Practica1_Veterinaria.Modelos
         public override void MostrarInformacion()
         {
             base.MostrarInformacion();
-            Console.WriteLine($"Envergadura de las alas: {EnvergaduraAlas} | Puede volar: {(PuedeVolar? "Si" : "No")}");
+            Console.WriteLine($"Envergadura de las alas: {EnvergaduraAlas} cm | Puede volar: {(PuedeVolar? "Si" : "No")}");
         }
     }
 }

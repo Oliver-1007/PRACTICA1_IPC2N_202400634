@@ -17,7 +17,7 @@ namespace Practica1_Veterinaria
             var veterinaria = new Veterianria();
             var menu = new MenuConsola(veterinaria);
 
-            menu.Inciar();
+            menu.Iniciar();
         }
     }
 }
