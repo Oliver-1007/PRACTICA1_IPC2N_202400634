@@ -1,0 +1,15 @@
+C:\Users\raxtu\PRACTICA1_IPC2N_202400634\Practica1_Veterinaria\bin\Debug\net8.0\Practica1_Veterinaria.exe
+C:\Users\raxtu\PRACTICA1_IPC2N_202400634\Practica1_Veterinaria\bin\Debug\net8.0\Practica1_Veterinaria.deps.json
+C:\Users\raxtu\PRACTICA1_IPC2N_202400634\Practica1_Veterinaria\bin\Debug\net8.0\Practica1_Veterinaria.runtimeconfig.json
+C:\Users\raxtu\PRACTICA1_IPC2N_202400634\Practica1_Veterinaria\bin\Debug\net8.0\Practica1_Veterinaria.dll
+C:\Users\raxtu\PRACTICA1_IPC2N_202400634\Practica1_Veterinaria\bin\Debug\net8.0\Practica1_Veterinaria.pdb
+C:\Users\raxtu\PRACTICA1_IPC2N_202400634\Practica1_Veterinaria\obj\Debug\net8.0\Practica1_Veterinaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raxtu\PRACTICA1_IPC2N_202400634\Practica1_Veterinaria\obj\Debug\net8.0\Practica1_Veterinaria.AssemblyInfoInputs.cache
+C:\Users\raxtu\PRACTICA1_IPC2N_202400634\Practica1_Veterinaria\obj\Debug\net8.0\Practica1_Veterinaria.AssemblyInfo.cs
+C:\Users\raxtu\PRACTICA1_IPC2N_202400634\Practica1_Veterinaria\obj\Debug\net8.0\Practica1_Veterinaria.csproj.CoreCompileInputs.cache
+C:\Users\raxtu\PRACTICA1_IPC2N_202400634\Practica1_Veterinaria\obj\Debug\net8.0\Practica1_Veterinaria.sourcelink.json
+C:\Users\raxtu\PRACTICA1_IPC2N_202400634\Practica1_Veterinaria\obj\Debug\net8.0\Practica1_Veterinaria.dll
+C:\Users\raxtu\PRACTICA1_IPC2N_202400634\Practica1_Veterinaria\obj\Debug\net8.0\refint\Practica1_Veterinaria.dll
+C:\Users\raxtu\PRACTICA1_IPC2N_202400634\Practica1_Veterinaria\obj\Debug\net8.0\Practica1_Veterinaria.pdb
+C:\Users\raxtu\PRACTICA1_IPC2N_202400634\Practica1_Veterinaria\obj\Debug\net8.0\Practica1_Veterinaria.genruntimeconfig.cache
+C:\Users\raxtu\PRACTICA1_IPC2N_202400634\Practica1_Veterinaria\obj\Debug\net8.0\ref\Practica1_Veterinaria.dll
